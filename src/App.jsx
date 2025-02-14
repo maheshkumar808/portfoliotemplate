@@ -14,7 +14,6 @@ function App() {
     <div className="w-full flex ">
       <div className="w-[500px] h-screen hidden md:block">
         <Header setShow={setShow} />
-        <HeaderFooter />
       </div>
       <div className="block md:hidden absolute p-2 bg-gray-400 ">
         <HiBars3
@@ -25,7 +24,6 @@ function App() {
       {show && (
         <div className="absolute inset-0">
           <Header setShow={setShow} />
-          <HeaderFooter setShow={setShow} />
         </div>
       )}
       <div className="w-full overflow-y-auto h-screen ">

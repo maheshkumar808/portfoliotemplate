@@ -7,7 +7,7 @@ import { FaDribbble } from 'react-icons/fa';
 
 function HeaderFooter() {
   return (
-    <section className="w-full h-[14vh] bg-gray-800 ">
+    <section className="w-full bg-gray-800 ">
       <div className="w-full justify-items-center grid grid-cols-5 p-12">
         <div>
           <FaTwitter className=" text-2xl text-gray-500 hover:text-white" />
